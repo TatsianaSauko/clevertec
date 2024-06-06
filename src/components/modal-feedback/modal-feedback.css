@@ -1,0 +1,88 @@
+.form-feedback {
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-content-gap);
+}
+
+.modal-feedback .ant-modal-footer .ant-btn-default {
+    display: none;
+}
+
+.modal-feedback .ant-modal-footer .ant-btn-lg:hover {
+    border: 1px solid var(--primary-light-5);
+    border-radius: var(--border-radius-subtle);
+    background: var(--primary-light-4);
+}
+
+.modal-feedback .ant-rate {
+    font-size: 20px;
+}
+
+.form-feedback .ant-input {
+    font-weight: var(--default-font-weight);
+    font-size: var(--smallFontSize);
+    line-height: var(--title-line-height);
+    color: var(--character-light-title-85);
+    margin-bottom: var(--no-bottom-margin);
+}
+
+.form-feedback .ant-btn-primary {
+    font-size: var(--smallFontSize);
+    letter-spacing: 0.5px;
+}
+
+.form-feedback .ant-divider-horizontal {
+    margin-top: var(--small-top-margin);
+    margin-bottom: 10px;
+}
+
+.form-feedback .ant-form-item {
+    margin-bottom: var(--no-bottom-margin);
+}
+
+.form-feedback .ant-form-item:last-child {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 24px;
+    border: 1px solid var(--character-light-border);
+}
+
+.form-feedback .ant-form-item:nth-child(1) {
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-top: 13px;
+}
+
+.form-feedback .ant-form-item:nth-child(2) {
+    padding-right: 24px;
+    padding-left: 24px;
+    margin-bottom: var(--small-bottom-margin);
+}
+
+.modal-feedback .ant-modal-close-x .anticon {
+    font-size: var(--smallFontSize);
+}
+
+@media screen and (max-width: 576px) {
+    .form-feedback .ant-form-item:last-child {
+        padding: 10px 16px;
+        display: block;
+    }
+
+    .form-feedback .ant-form-item:nth-child(1) {
+        padding-right: var(--default-padding-right);
+        padding-left: var(--default-padding-left);
+    }
+
+    .form-feedback .ant-form-item:nth-child(2) {
+        padding-right: var(--default-padding-right);
+        padding-left: var(--default-padding-left);
+    }
+
+    .modal-feedback .ant-modal-header {
+        padding: 16px 10px 16px 16px;
+    }
+}

@@ -1,0 +1,135 @@
+form.profile-page {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-global-gap);
+    background-color: var(--neutral-gray-1);
+    height: 100%;
+}
+
+.profile-page .title {
+    font-weight: 500;
+    margin-bottom: 0;
+    line-height: 20.8px;
+}
+
+.profile-page .title-private {
+    padding-top: 16px;
+}
+
+.profile-page .ant-upload.ant-upload-select-picture-card > .ant-upload {
+    width: 104px;
+    height: 104px;
+}
+
+.profile-page .ant-input-lg {
+    font-size: var(--smallFontSize);
+    padding: 10px 12px;
+    line-height: 18.2px;
+}
+
+.profile-page .ant-picker-large .ant-picker-input > input {
+    font-size: var(--smallFontSize);
+    width: 310px;
+}
+
+.profile-page .ant-picker-large {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.info-user__wrapper {
+    display: flex;
+    gap: var(--spacing-global-gap);
+    max-width: 480px;
+    flex-wrap: wrap;
+}
+
+.profile-page .ant-upload-picture-card-wrapper {
+    width: 104px;
+}
+
+.private-info__form {
+    max-width: 480px;
+}
+
+.info-user__form .ant-form-item {
+    margin-bottom: 16px;
+}
+
+.private-info__form .ant-form-item-explain {
+    font-size: var(--extraSmallFontSize);
+}
+
+.private-info__form .ant-form-item {
+    margin-bottom: 30px;
+}
+
+.private-info__form .ant-form-item:nth-of-type(2) {
+    padding-bottom: 16px;
+}
+
+.private-info__form .btn-save {
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 576px) {
+    .profile-page {
+        padding-top: 16px;
+        padding-bottom: 7px;
+        gap: 20px;
+    }
+
+    main.profile-mobile {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .profile-page .ant-picker-large .ant-picker-input > input {
+        width: 312px;
+    }
+
+    .avatar-uploader {
+        width: 100%;
+        order: 1;
+    }
+
+    .profile-page .ant-picker-large .ant-picker-input > input {
+        font-size: var(--smallFontSize);
+        width: 270px;
+    }
+
+    .info-user__wrapper {
+        gap: 0;
+    }
+
+    .private-info__form .btn-save {
+        margin-top: 21px;
+        width: 100%;
+    }
+
+    .avatar-uploader .ant-upload-list-item {
+        margin-top: 0;
+    }
+
+    .ant-upload-span {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .ant-upload-list-item-name[title='image.png'] {
+        display: none;
+    }
+
+    .ant-upload-list-picture .ant-upload-list-item-thumbnail .anticon {
+        font-size: 22px;
+    }
+
+    .profile-avatar {
+        order: 1;
+    }
+
+    .profile-avatar .ant-upload-list {
+        width: 312px;
+    }
+}

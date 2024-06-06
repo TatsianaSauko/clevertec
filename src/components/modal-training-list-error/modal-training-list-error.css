@@ -1,0 +1,43 @@
+.result-training-list-error {
+    padding: 16px 24px;
+}
+
+.result-training-list-error .block-title__wrapper {
+    display: flex;
+    gap: var(--spacing-content-gap);
+    padding-bottom: 16px;
+}
+
+.result-training-list-error .icon-result {
+    height: 25px;
+}
+
+.result-training-list-error .title {
+    font-weight: var(--default-font-weight);
+    line-height: 20.8px;
+    letter-spacing: 0.6px;
+}
+
+.result-training-list-error .btn-update {
+    display: flex;
+    margin-left: auto;
+    height: 28px;
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.04);
+    background: var(--primary-light-6);
+    border: 1px solid var(--primary-light-6);
+    line-height: 16.1px;
+}
+
+.result-training-list-error .btn-update:hover {
+    border: 1px solid var(--primary-light-5);
+    background: var(--primary-light-4);
+}
+
+.result-training-list-error .subtitle {
+    letter-spacing: 0.5px;
+}
+
+.result-training-list-error .ant-modal-close-x {
+    width: 69px;
+    font-size: var(--smallFontSize);
+}

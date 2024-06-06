@@ -1,0 +1,78 @@
+button.table-edit {
+    border: var(--no-border);
+}
+
+.table-training {
+    width: 555px;
+}
+
+.table-training .ant-table-row {
+    height: 37px;
+}
+
+.table-training .ant-btn[disabled] {
+    background: var(--neutral-gray-1);
+}
+
+.table-training .ant-table-thead > tr > th:nth-child(1),
+.table-training .ant-table-thead > tr > th:nth-child(3) {
+    background: var(--neutral-gray-4);
+}
+
+.table-training .ant-table.ant-table-small .ant-table-tbody > tr > td {
+    padding: 5px 0 0;
+}
+
+.table-training .ant-table-pagination {
+    flex-wrap: nowrap;
+}
+
+.table-training .ant-table-pagination.ant-pagination {
+    margin: 24px 0 30px;
+}
+
+.table-training .ant-table-thead > tr > th {
+    font-size: 12px;
+}
+
+.table-training tr .ant-table-cell:nth-child(5),
+.table-training tr .ant-table-cell:nth-child(2),
+.table-training tr .ant-table-cell:nth-child(4) {
+    background: var(--character-light-primary-inverse);
+    border-bottom: none;
+}
+
+.table-training .ant-table-pagination-right {
+    justify-content: flex-start;
+}
+
+.table-training__wrapper .btn-create {
+    margin-top: 24px;
+    font-size: var(--smallFontSize);
+    background: var(--primary-light-6);
+}
+
+@media only screen and (max-width: 900px) {
+    .table-training {
+        width: 530px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .table-training .ant-table-thead > tr > th:nth-child(4),
+    .table-training .ant-table-thead > tr > th:nth-child(5) {
+        background: var(--neutral-gray-4);
+    }
+
+    .table-training {
+        width: 312px;
+    }
+
+    .table-training .ant-table-pagination.ant-pagination {
+        margin: 12px 0 0;
+    }
+
+    .table-training__wrapper .btn-create {
+        margin-top: 20px;
+    }
+}

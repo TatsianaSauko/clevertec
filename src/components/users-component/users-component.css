@@ -1,0 +1,57 @@
+.users .title {
+    margin-bottom: 0;
+    overflow-y: auto;
+}
+
+.users::-webkit-scrollbar {
+    width: 4px;
+}
+
+.users::-webkit-scrollbar-thumb {
+    background-color: var(--neutral-gray-6);
+    border-radius: 20px;
+    min-height: 80px;
+}
+
+.training-partners .title {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: var(--title-font-weight);
+    padding-top: 12px;
+    margin-bottom: 0;
+}
+
+.cards_partner {
+    display: flex;
+    gap: var(--spacing-content-gap);
+    flex-wrap: wrap;
+    padding-top: 12px;
+}
+
+.users__header {
+    display: flex;
+    gap: 159px;
+    margin-bottom: 8px;
+}
+
+.cards_user {
+    overflow-y: auto;
+}
+
+@media only screen and (max-width: 900px) {
+    .users__header {
+        justify-content: space-between;
+        gap: 0;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .users__header {
+        flex-wrap: wrap;
+        gap: var(--list-item-gap);
+    }
+
+    .users__header {
+        margin-bottom: 2px;
+    }
+}

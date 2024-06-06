@@ -1,0 +1,129 @@
+.login-page {
+    width: 368px;
+    padding-bottom: 111px;
+}
+
+.login-form .ant-form-item {
+    padding-bottom: 9px;
+}
+
+.login-form .ant-input,
+.login-form .ant-input-affix-wrapper {
+    padding: 8px 12px;
+}
+
+.login-form .ant-form-item:nth-child(2) {
+    margin-bottom: 40px;
+}
+
+.login-form .ant-form-item:nth-child(3) {
+    margin-top: var(--small-top-margin);
+    margin-bottom: 13px;
+}
+
+.login-form .ant-form-item:nth-child(4) {
+    margin-bottom: 4px;
+}
+
+.login-form .ant-checkbox-checked .ant-checkbox-inner {
+    background-color: var(--primary-light-6);
+    border-color: var(--primary-light-6);
+}
+
+.login-form .ant-form-item:nth-child(3) .ant-form-item-control-input-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-form .login-form-button {
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.04);
+    background: var(--primary-light-6);
+    border: 1px solid var(--primary-light-6);
+}
+
+.login-form .ant-form-item-explain-error {
+    font-size: var(--extraSmallFontSize);
+}
+
+.login-form .ant-form-item-feedback-icon {
+    display: none;
+}
+
+.login-form .ant-input-suffix > *:not(:last-child) {
+    margin-right: 0;
+}
+
+.login-form .ant-btn-link {
+    font-size: var(--defaultFontSize);
+    color: var(--primary-light-6);
+}
+
+.icon-G {
+    padding-right: 10px;
+}
+
+.login-form .ant-input-status-error:not(.ant-input-disabled):not(.ant-input-borderless).ant-input {
+    border-left-color: var(--character-light-border);
+}
+
+.login-form
+    .ant-input-status-error:not(.ant-input-disabled):not(.ant-input-borderless).ant-input:focus {
+    box-shadow: none;
+    border-left-color: var(--character-light-border);
+}
+
+.login-form .ant-input-group-wrapper-status-error .ant-input-group-addon {
+    color: var(--character-light-title-85);
+}
+
+.login-form_forgot {
+    padding-right: 0;
+}
+
+@media screen and (max-width: 576px) {
+    .login-page {
+        width: 296px;
+        font-size: var(--smallFontSize);
+        padding-bottom: 93px;
+    }
+
+    .login-form .ant-row {
+        display: block;
+    }
+
+    .ant-form .ant-form-item .ant-form-item-label {
+        flex: none;
+    }
+
+    .login-form .ant-form-item:nth-child(1) .ant-form-item-control {
+        flex: 0 0 76%;
+    }
+
+    .login-form .ant-form-item:nth-child(3) .login-form_forgot {
+        font-size: var(--smallFontSize);
+        padding-right: 9px;
+    }
+
+    .login-form .ant-form-item:nth-child(4) {
+        font-size: var(--smallFontSize);
+        margin-bottom: 7px;
+    }
+
+    .login-form .btn_register-for-google {
+        height: 40px;
+        font-size: var(--smallFontSize);
+    }
+
+    .icon-hidden {
+        display: none;
+    }
+
+    .login-form .ant-form-item:nth-child(3) {
+        margin-bottom: var(--small-bottom-margin);
+    }
+
+    .login-form .ant-form-item:nth-child(2) {
+        margin-bottom: 38px;
+    }
+}

@@ -1,0 +1,16 @@
+.alert-wrapper .ant-alert {
+    position: absolute;
+    width: 395px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 72px;
+    z-index: 3;
+}
+
+@media screen and (max-width: 576px) {
+    .alert-wrapper .ant-alert {
+        width: 312px;
+        bottom: 90px;
+    }
+}

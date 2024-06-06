@@ -1,0 +1,40 @@
+.modal-payment__content {
+    padding: 64px 45px 56px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-global-gap);
+    text-align: center;
+}
+
+.modal-payment__content .block-title {
+    padding-top: 24px;
+}
+
+.modal-payment__content .icon-ok {
+    padding: 5px;
+}
+
+.modal-payment__content .title {
+    font-weight: 500;
+    line-height: 31.2px;
+    margin-bottom: 0;
+    letter-spacing: 0.5px;
+}
+
+.modal-payment__content .subtitle {
+    letter-spacing: 0.5px;
+}
+
+@media screen and (max-width: 576px) {
+    .modal-payment__content {
+        padding: 32px 25px;
+    }
+
+    .modal-payment__content .title {
+        padding: 0 40px;
+    }
+
+    .modal-payment__content .subtitle-footer {
+        padding: 0 10px;
+    }
+}

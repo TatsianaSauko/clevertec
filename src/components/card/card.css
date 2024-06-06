@@ -1,0 +1,49 @@
+.card {
+    background-color: var(--character-light-primary-inverse);
+    flex: 1;
+    letter-spacing: 1px;
+}
+
+.card .divider {
+    margin: 0;
+}
+
+.card__title {
+    color: var(--character-light-title-85);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    font-size: var(--defaultFontSize);
+    line-height: var(--title-line-height);
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.card__link {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+.card button.ant-btn {
+    background-color: transparent;
+    border: var(--no-border);
+    color: var(--primary-light-6);
+    font-size: var(--smallFontSize);
+}
+
+@media (max-width: 900px) {
+    .card__title {
+        padding-left: 24px;
+        text-align: left;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 735px) {
+    .card__title {
+        padding-left: 0;
+        text-align: center;
+        padding-right: 0;
+    }
+}

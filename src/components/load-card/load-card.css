@@ -1,0 +1,31 @@
+.load-card {
+    width: 156px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+}
+
+.load-card__value {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 49.4px;
+    color: var(--character-light-title-85);
+}
+
+.load-card__title {
+    line-height: 18.2px;
+    color: var(--character-light-secondary-45);
+}
+
+@media (max-width: 576px) {
+    .load-card {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 16px;
+        align-items: center;
+    }
+}

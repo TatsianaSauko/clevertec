@@ -1,0 +1,35 @@
+.error-page {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: var(--box-shadow-subtle);
+    background: var(--character-light-primary-inverse);
+    border-radius: var(--border-radius-subtle);
+    padding: var(--result-page-padding);
+    align-items: center;
+    justify-content: center;
+    width: 539px;
+    text-align: center;
+    gap: var(--spacing-global-gap);
+}
+
+.error-page .ant-btn.ant-btn-block {
+    width: 368px;
+}
+
+.icon-error {
+    display: block;
+    width: 71px;
+    height: 70px;
+    margin: var(--results-icon-margin);
+}
+
+@media screen and (max-width: 576px) {
+    .error-page .ant-btn.ant-btn-block {
+        width: 296px;
+    }
+
+    .error-page {
+        padding: var(--result-page-padding-mobile);
+    }
+}

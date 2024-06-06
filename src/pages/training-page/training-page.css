@@ -1,0 +1,81 @@
+.training-page {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-global-gap);
+    background-color: var(--neutral-gray-1);
+    height: 100%;
+}
+
+.training-page .menu-training {
+    padding: 12px 32px 0 0;
+    margin-bottom: 12px;
+    gap: 203.5px;
+}
+
+.training-page .menu-training:before {
+    content: none;
+}
+
+.training-page .ant-menu-horizontal {
+    line-height: 0;
+}
+
+.training-page .ant-menu-horizontal > .ant-menu-item:after {
+    right: 10px;
+    left: 10px;
+}
+
+.menu-training .ant-menu-title-content {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31.2px;
+}
+
+.training-page .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item {
+    padding: 0 12px;
+}
+
+@media screen and (max-width: 900px) {
+    .training-page .menu-training {
+        padding: 5px 0 0 12px;
+        margin-bottom: 0;
+        gap: 65.5px;
+    }
+
+    .menu-training .ant-menu-title-content {
+        font-size: var(--smallFontSize);
+        font-weight: 400;
+        line-height: 18.2px;
+    }
+
+    .training-page .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item {
+        padding: 0 4px;
+    }
+
+    .training-page .ant-menu-horizontal {
+        line-height: 46px;
+    }
+
+    .training-page .ant-menu-horizontal > .ant-menu-item:after {
+        right: 5px;
+        left: 5px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .main-training {
+        padding: 24px 0 0;
+    }
+
+    .training-page {
+        padding: 21px 12px 16px;
+        overflow-x: hidden;
+    }
+
+    .training-page .menu-training {
+        padding: 0;
+        gap: 2px;
+        white-space: nowrap;
+    }
+}

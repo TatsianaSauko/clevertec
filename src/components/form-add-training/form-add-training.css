@@ -1,0 +1,75 @@
+.drawer__wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    max-height: calc(100vh - 270px);
+    overflow-y: auto;
+}
+
+.drawer__wrapper::-webkit-scrollbar {
+    width: 4px;
+}
+
+.drawer__wrapper::-webkit-scrollbar-thumb {
+    background-color: var(--neutral-gray-6);
+    border-radius: 20px;
+    min-height: 80px;
+}
+
+.drawer__wrapper .ant-form-vertical .ant-form-item-label > label {
+    padding: 3.5px 8px;
+    background-color: var(--neutral-gray-4);
+    font-size: var(--extraSmallFontSize);
+    width: 100%;
+    border-radius: var(--border-radius-subtle);
+}
+
+.drawer__wrapper .ant-form-item {
+    margin-bottom: var(--small-bottom-margin);
+}
+
+.drawer__wrapper .form__wrapper {
+    display: flex;
+    gap: 32px;
+    padding-bottom: 16px;
+}
+
+.drawer__wrapper .ant-form-item-label {
+    padding-bottom: 6px;
+}
+
+.drawer__wrapper .form__block {
+    display: flex;
+}
+
+.form__block .icon {
+    font-size: var(--smallFontSize);
+    padding-top: 32px;
+    padding-left: 2px;
+    padding-right: 2px;
+    color: var(--character-light-disable-25);
+}
+
+.form__wrapper
+    .ant-form-item-label
+    > label.ant-form-item-required:not(.ant-form-item-required-mark-optional):before {
+    content: '';
+}
+
+.name__wrapper {
+    display: flex;
+}
+
+.name__wrapper .name {
+    flex: 1;
+}
+
+.name__wrapper .checkbox {
+    border-bottom: 1px solid var(--character-light-border);
+    border-right: 1px solid var(--character-light-border);
+    border-top: 1px solid var(--character-light-border);
+    border-radius: 0 2px 2px 0;
+    padding: 0 12px;
+    background: var(--character-light-table-header);
+}

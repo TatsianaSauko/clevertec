@@ -1,0 +1,98 @@
+.config-email {
+    background-image: url('/png/blure.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-left: var(--default-padding-left);
+    padding-right: var(--default-padding-right);
+}
+
+.config-email__content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: var(--border-radius-subtle);
+    box-shadow: var(--box-shadow-subtle);
+    background: var(--character-light-primary-inverse);
+    border-radius: var(--border-radius-subtle);
+    padding: 64px 32px 56px;
+    align-items: center;
+    justify-content: center;
+    width: 539px;
+}
+
+.config-email .icon-suggested {
+    width: 71px;
+    height: 70px;
+    margin: var(--results-icon-margin);
+}
+
+.config-email .ant-btn.ant-btn-block {
+    width: 368px;
+}
+
+.config-email__content .ant-typography.ant-typography-disabled {
+    color: var(--character-light-secondary-45);
+    line-height: var(--title-line-height);
+}
+
+.config-email__content .title {
+    margin-top: 24px;
+    margin-bottom: var(--no-bottom-margin);
+    font-weight: var(--title-font-weight);
+    line-height: var(--title-line-height);
+}
+
+.ant-typography.ant-typography-secondary {
+    color: var(--character-light-secondary-45);
+    line-height: var(--title-line-height);
+}
+
+.container {
+    margin-top: 24px;
+    margin-bottom: 14px;
+    gap: var(--element-gap);
+}
+
+.character {
+    padding: 8px 12px 16px 10px;
+    width: 40px;
+    height: 40px;
+    flex-basis: auto;
+    border: 1px solid var(--character-light-border);
+    border-radius: var(--border-radius-subtle);
+    text-align: center;
+    font-size: var(--smallFontSize);
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--character-light-primary-inverse);
+}
+
+.character_error {
+    border: 1px solid var(----character-light-error);
+}
+
+@media screen and (max-width: 576px) {
+    .config-email .ant-btn.ant-btn-block {
+        width: 296px;
+    }
+
+    .config-email__content {
+        padding: var(--result-page-padding-mobile);
+    }
+
+    .container {
+        width: 280px;
+        gap: var(--list-item-gap);
+    }
+
+    .config-email__content .subtitle {
+        width: 250px;
+    }
+}

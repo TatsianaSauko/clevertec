@@ -1,0 +1,17 @@
+.monthly-training__content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.monthly-load-cards {
+    display: flex;
+    row-gap: 100px;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 576px) {
+    .monthly-load-cards {
+        column-gap: 16px;
+    }
+}

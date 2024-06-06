@@ -1,0 +1,27 @@
+#root {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+section.main-page {
+    background-image: url('/png/mainPageLight.png');
+    background-size: cover;
+    background-position: center;
+}
+
+section.main-settings {
+    background: var(--neutral-gray-4);
+}
+
+section.site_layout {
+    background-color: transparent;
+}
+
+.footer {
+    height: 42px;
+}
+
+.ant-layout footer.ant-layout-footer {
+    background: transparent;
+    padding: 0;
+}

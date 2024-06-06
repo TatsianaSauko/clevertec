@@ -1,0 +1,17 @@
+.weekly-frequent-exercises {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.weekly-frequent-exercises .title {
+    width: 194px;
+    line-height: 18.2px;
+}
+
+.table-row .week {
+    color: var(--character-light-secondary-45);
+    padding: 7px 0;
+    width: 92px;
+    line-height: 18.2px;
+}

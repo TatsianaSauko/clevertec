@@ -1,0 +1,85 @@
+.drawer-trainings {
+    letter-spacing: 0.8px;
+}
+
+.drawer-trainings .ant-drawer-body {
+    padding: 0;
+    padding-left: 32px;
+    padding-right: 32px;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 24px;
+}
+
+.drawer-trainings .ant-drawer-title {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: var(--title-font-weight);
+}
+
+.drawer-trainings .ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+    height: 28px;
+}
+
+.drawer-trainings .ant-picker-small {
+    min-height: 28px;
+}
+
+.drawer-trainings .drawer__wrapper {
+    padding-top: 24px;
+}
+
+.drawer-trainings .ant-drawer-header {
+    padding: 19px 32px 16px;
+}
+
+.drawer-trainings .ant-checkbox + span {
+    padding-right: 0;
+    letter-spacing: 0.2px;
+}
+
+.drawer-trainings .btn__add-more {
+    text-align: left;
+}
+
+.drawer-trainings .ant-select {
+    width: 156px;
+}
+
+.drawer-trainings .ant-picker {
+    width: 156px;
+}
+
+.footer-drawer-subtitle {
+    font-size: var(--extraSmallFontSize);
+    line-height: 15.6px;
+    text-align: center;
+    color: var(--character-light-secondary-45);
+    margin-top: auto;
+}
+
+@media only screen and (max-width: 576px) {
+    .drawer-trainings .ant-drawer-body {
+        padding-left: var(--default-padding-left);
+        padding-right: var(--default-padding-right);
+    }
+
+    .drawer-trainings .ant-drawer-header {
+        padding: 19px 16px 16px;
+    }
+
+    .drawer-trainings .ant-drawer-body {
+        padding-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .drawer-trainings .ant-select {
+        width: 148px;
+    }
+
+    .drawer-trainings .ant-picker {
+        width: 148px;
+    }
+}

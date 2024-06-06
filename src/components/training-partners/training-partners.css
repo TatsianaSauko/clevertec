@@ -1,0 +1,19 @@
+.training-partners {
+    padding-top: 16px;
+}
+
+.training-partners .title {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: var(--title-font-weight);
+    padding-top: 12px;
+    margin-bottom: 0;
+}
+
+.cards_user {
+    display: flex;
+    gap: var(--spacing-content-gap);
+    flex-wrap: wrap;
+    padding-top: 12px;
+    padding-bottom: 16px;
+}

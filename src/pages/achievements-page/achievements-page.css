@@ -1,0 +1,82 @@
+.achievements-page {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-global-gap);
+    background-color: var(--neutral-gray-1);
+    height: 100%;
+}
+
+.achievements-page .menu-achievements {
+    padding: 12px 0 0;
+    margin-bottom: 12px;
+    gap: 281px;
+}
+
+.achievements-page .menu-achievements:before {
+    content: none;
+}
+
+.achievements-page .ant-menu-horizontal {
+    line-height: 0;
+}
+
+.achievements-page .ant-menu-horizontal > .ant-menu-item:after {
+    right: 10px;
+    left: 10px;
+}
+
+.achievements-page .ant-menu-title-content {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31.2px;
+}
+
+.achievements-page .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item {
+    padding: 0 12px;
+}
+
+@media screen and (max-width: 900px) {
+    .achievements-page .menu-achievements {
+        padding: 5px 0 0 12px;
+        margin-bottom: 0;
+        gap: 105px;
+    }
+
+    .achievements-page .ant-menu-title-content {
+        font-size: var(--smallFontSize);
+        font-weight: 400;
+        line-height: 18.2px;
+    }
+
+    .achievements-page .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item {
+        padding: 0 4px;
+    }
+
+    .achievements-page .ant-menu-horizontal {
+        line-height: 46px;
+    }
+
+    .achievements-page .ant-menu-horizontal > .ant-menu-item:after {
+        right: 5px;
+        left: 5px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .main.main-achievements {
+        padding: 24px 0 0;
+    }
+
+    .achievements-page {
+        padding: 21px 16px 16px;
+        overflow-x: hidden;
+    }
+
+    .achievements-page .menu-achievements {
+        padding: 0;
+        margin-left: -3px;
+        gap: 20px;
+        white-space: nowrap;
+    }
+}

@@ -1,0 +1,41 @@
+.daily-load-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.daily-load-list .title {
+    width: 140px;
+    line-height: 18.2px;
+}
+
+.table-column {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.table-row {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.table-row .day {
+    color: var(--character-light-secondary-45);
+    padding: 7px 0;
+    width: 92px;
+    line-height: 18.2px;
+}
+
+.table-row .value {
+    font-weight: 700;
+    line-height: 18.2px;
+    font-size: var(--smallFontSize);
+}
+
+@media only screen and (max-width: 900px) {
+    .daily-load-list .title {
+        width: 100%;
+    }
+}

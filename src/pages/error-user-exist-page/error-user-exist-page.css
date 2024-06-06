@@ -1,0 +1,39 @@
+.error-user-exist {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: var(--box-shadow-subtle);
+    background: var(--character-light-primary-inverse);
+    border-radius: var(--border-radius-subtle);
+    padding: var(--result-page-padding);
+    align-items: center;
+    justify-content: center;
+    width: 539px;
+    text-align: center;
+    gap: var(--spacing-global-gap);
+}
+
+.error-user-exist .ant-btn.ant-btn-block {
+    width: 368px;
+}
+
+.error-user-exist .ant-btn.ant-btn-block {
+    width: 368px;
+}
+
+.icon-user-exist-error {
+    display: block;
+    width: 71px;
+    height: 70px;
+    margin: 5px;
+}
+
+@media screen and (max-width: 576px) {
+    .error-user-exist .ant-btn.ant-btn-block {
+        width: 296px;
+    }
+
+    .error-user-exist {
+        padding: var(--result-page-padding-mobile);
+    }
+}

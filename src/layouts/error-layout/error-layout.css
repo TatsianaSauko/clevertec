@@ -1,0 +1,38 @@
+.error-layout {
+    background-image: url('/png/blure.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-left: var(--default-padding-left);
+    padding-right: var(--default-padding-right);
+}
+
+.error-layout__content {
+    display: flex;
+    flex-direction: column;
+    box-shadow: var(--box-shadow-subtle);
+    background: var(--character-light-primary-inverse);
+    border-radius: var(--border-radius-subtle);
+    padding: 64px 32px 56px;
+    align-items: center;
+    justify-content: center;
+    width: 539px;
+    text-align: center;
+    gap: var(--spacing-global-gap);
+}
+
+.error-layout .title {
+    margin-bottom: var(--no-bottom-margin);
+    font-weight: var(--title-font-weight);
+    line-height: var(--title-line-height);
+}
+
+.error-layout .button {
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.04);
+    background: var(--primary-light-6);
+    border: 1px solid var(--primary-light-6);
+}

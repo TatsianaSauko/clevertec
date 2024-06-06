@@ -1,0 +1,29 @@
+.messages-component {
+    padding: 16px 24px 24px;
+    background: var(--neutral-gray-2);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-content-gap);
+}
+
+.messages-component .title {
+    font-size: var(--smallFontSize);
+    line-height: 18.2px;
+    color: var(--character-light-secondary-45);
+}
+
+.messages-component .btn_show-message {
+    text-align: left;
+}
+
+.cards-message__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: var(--list-item-gap);
+}
+
+@media screen and (max-width: 900px) {
+    .cards-message__wrapper {
+        gap: var(--spacing-content-gap);
+    }
+}

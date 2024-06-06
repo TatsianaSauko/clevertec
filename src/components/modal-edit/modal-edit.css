@@ -1,0 +1,111 @@
+.modal-training-edit {
+    z-index: 2;
+    box-shadow: var(--box-shadow-subtle);
+    background: var(--character-light-primary-inverse);
+    width: 264px;
+    position: fixed;
+}
+
+.modal-training-edit .btn-close {
+    position: absolute;
+    top: 20px;
+    right: 16px;
+    cursor: pointer;
+}
+
+.modal-training .btn-save {
+    color: var(--primary-light-7);
+}
+
+.modal-training-edit .btn-create {
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.04);
+    background: var(--primary-light-6);
+    border: 1px solid var(--primary-light-6);
+    font-size: var(--smallFontSize);
+    letter-spacing: 0.7px;
+    height: 40px;
+}
+
+.modal-training-edit .btn-create:disabled {
+    background: var(--character-light-background);
+    border: 1px solid var(--character-light-border);
+    color: var(--character-light-disable-25);
+}
+
+.modal-training-edit .empty {
+    padding-top: 16px;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.modal-training-edit .ant-divider-horizontal {
+    margin: 0;
+}
+
+.modal-training-edit .block-title {
+    padding: 16px 12px;
+}
+
+.modal-training-edit .title {
+    font-weight: 700;
+    font-size: var(--smallFontSize);
+    line-height: 18.2px;
+    margin-bottom: 4px;
+    letter-spacing: 0.2px;
+}
+
+.modal-training-edit .subtitle {
+    line-height: 18.2px;
+    letter-spacing: 0.5px;
+}
+
+.modal-training-edit .select-training {
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+    width: 225px;
+}
+
+.modal-training-edit .btn-back {
+    padding-left: 12px;
+    cursor: pointer;
+    border: var(--no-border);
+    background: inherit;
+}
+
+.modal-training-edit .btn-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: var(--list-item-gap);
+    padding: 12px;
+}
+
+.modal-training-edit .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    border: var(--no-border);
+}
+
+.modal-training-edit .training-list {
+    padding: 16px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--list-item-gap);
+    min-height: 91px;
+}
+
+.modal-training-edit .ant-divider-horizontal {
+    margin: 0;
+}
+
+.spin {
+    padding-right: 8px;
+}
+
+@media screen and (max-width: 576px) {
+    .modal-training-edit {
+        width: 312px;
+    }
+
+    .modal-training-edit .select-training {
+        width: 275px;
+    }
+}

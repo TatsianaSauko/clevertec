@@ -1,0 +1,34 @@
+.top-exercises-card {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.top-exercises-card .title {
+    line-height: 18.2px;
+    color: var(--character-light-secondary-45);
+    width: 198px;
+    padding-right: 49px;
+}
+
+.top-exercises-card .value {
+    font-size: 24px;
+    font-weight: var(--title-font-weight);
+    line-height: 3.2px;
+}
+
+@media only screen and (max-width: 900px) {
+    .top-exercises-card {
+        margin: 0;
+    }
+
+    .top-exercises-card .title {
+        width: 157px;
+    }
+
+    .top-exercises-card .value {
+        font-size: 20px;
+        line-height: 26px;
+        width: 157px;
+    }
+}

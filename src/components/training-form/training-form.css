@@ -1,0 +1,37 @@
+form.form-period {
+    padding-top: 17px;
+}
+
+.form-period > .ant-form-item:first-child {
+    margin-bottom: 24px;
+}
+
+.block {
+    height: 28px;
+}
+
+.form-period .block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-period .block > .ant-form-item:nth-child(2) {
+    margin-bottom: 0;
+}
+
+.form-period > .ant-form-item:nth-child(3) {
+    width: 156px;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.block > .ant-form-item:first-child {
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 576px) {
+    form.form-period {
+        padding-top: 0;
+    }
+}

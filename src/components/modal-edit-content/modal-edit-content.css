@@ -1,0 +1,22 @@
+.training-edit-content {
+    list-style: none;
+    padding: 16px 12px;
+    min-height: 91px;
+    margin-bottom: var(--no-bottom-margin);
+}
+
+.training-edit-content li {
+    font-size: var(--smallFontSize);
+    line-height: 15.6px;
+    color: var(--character-light-secondary-45);
+}
+
+.training-edit-content li:not(:last-child) {
+    margin-bottom: var(--small-bottom-margin);
+}
+
+.training-edit-content .icon-edit {
+    float: right;
+    border: var(--no-border);
+    height: 16px;
+}

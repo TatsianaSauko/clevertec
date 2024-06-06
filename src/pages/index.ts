@@ -1,0 +1,14 @@
+export { MainPage } from './main-page';
+export { ChangePasswordPage } from './change-password-page';
+export { ConfirmEmailPage } from './confirm-email-page';
+export { ErrorChangePasswordPage } from './error-change-password-page';
+export { ErrorCheckEmailNoExistPage } from './error-check-email-no-exist-page';
+export { ErrorCheckEmailPage } from './error-check-email-page';
+export { ErrorLoginPage } from './error-login-page';
+export { ErrorPage } from './error-page';
+export { LoginPage } from './login-page';
+export { RegisterPage } from './register-page';
+export { SuccessChangePasswordPage } from './success-change-password-page';
+export { SuccessPage } from './success-page';
+export { ErrorUserExistPage } from './error-user-exist-page';
+export { TrainingPage } from './training-page';

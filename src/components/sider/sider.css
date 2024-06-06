@@ -1,0 +1,126 @@
+.aside {
+    padding-top: 30px;
+    letter-spacing: 0.2px;
+}
+
+.ant-layout .ant-layout-sider {
+    box-shadow: var(--box-shadow-subtle);
+    background: var(--character-light-primary-inverse);
+    border: var(--no-border);
+}
+
+.logo {
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.logo_large {
+    padding-right: 17px;
+    padding-top: 14px;
+    margin-bottom: 56px;
+}
+
+.logo_small {
+    margin-bottom: 60px;
+}
+
+.logo_small {
+    padding-top: 16px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 139px);
+}
+
+.ant-menu-item .link {
+    font-size: var(--smallFontSize);
+}
+
+ul.ant-menu-inline .ant-menu-item:not(:last-child) {
+    margin-bottom: 14px;
+}
+
+ul.ant-menu-vertical .ant-menu-item:not(:last-child) {
+    margin-bottom: 14px;
+}
+
+li.ant-menu-item:last-child {
+    margin-top: var(--no-top-margin);
+    margin-bottom: var(--no-bottom-margin);
+}
+
+.icon_exit {
+    transform: rotate(180deg);
+}
+
+.icon_exit__padding {
+    transform: rotate(180deg);
+    padding-left: 15px;
+    padding-right: var(--default-padding-right);
+}
+
+.menu .ant-menu-item:last-of-type {
+    margin-top: auto;
+}
+
+.aside ul.ant-menu-vertical,
+.aside ul.ant-menu-inline {
+    border-right: none;
+}
+
+.logo_mobile {
+    padding-bottom: 23px;
+    text-align: center;
+    display: none;
+}
+
+span.ant-layout-sider-zero-width-trigger {
+    background: var(--character-light-primary-inverse);
+    width: 32px;
+    height: 48px;
+    right: -30px;
+    top: 24px;
+    padding-left: 8px;
+    clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+}
+
+@media (max-width: 576px) {
+    .logo_large {
+        display: none;
+    }
+
+    .logo_small {
+        display: none;
+    }
+
+    .logo_mobile {
+        display: flex;
+    }
+
+    .aside {
+        padding-top: 16px;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    span.ant-menu-item-icon {
+        display: none;
+    }
+
+    ul.ant-menu-inline .ant-menu-item:not(:last-child) {
+        margin-bottom: 6px;
+    }
+
+    ul.ant-menu-vertical .ant-menu-item:not(:last-child) {
+        margin-bottom: 6px;
+    }
+
+    .menu {
+        height: calc(100vh - 62px);
+    }
+}

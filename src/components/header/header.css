@@ -1,0 +1,195 @@
+.ant-layout .site_layout {
+    position: relative;
+}
+
+.ant-layout .ant-layout-header {
+    background: var(--primary-light-1);
+    color: var(--character-light-title-85);
+    height: auto;
+    padding-left: 0;
+    padding-right: 24px;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__wrapper button.ant-btn {
+    background-color: transparent;
+    border: var(--no-border);
+}
+
+.header__wrapper button.ant-btn:hover {
+    color: var(--character-light-title-85);
+    background-color: var(--neutral-gray-1);
+    border: var(--no-border);
+}
+
+.header__wrapper button.ant-btn:focus {
+    color: var(--character-light-title-85);
+}
+
+.header__wrapper h1.ant-typography {
+    margin: 0;
+    font-weight: 700;
+    line-height: var(--title-line-height);
+    padding-bottom: 6px;
+    color: var(--character-light-title-85);
+    padding-left: 24px;
+    margin-bottom: 14px;
+}
+
+.btn-settings {
+    margin-top: -12px;
+    margin-left: auto;
+}
+
+.header__wrapper .ant-btn-lg {
+    font-size: var(--smallFontSize);
+}
+
+.btn-settings .ant-btn > .anticon + span {
+    margin-left: 10px;
+}
+
+.header__wrapper_hidden {
+    display: none;
+}
+
+.ant-breadcrumb-link {
+    cursor: pointer;
+}
+
+.header__wrapper .hidden {
+    display: none;
+}
+
+.header-profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-profile span:first-of-type {
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.header .ant-page-header-back-button {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.btn-settings__profile {
+    margin-top: 18px;
+    margin-bottom: 22px;
+}
+
+.site-page-header .title-back {
+    cursor: pointer;
+}
+
+.btn-settings__training {
+    margin-bottom: 18px;
+}
+
+@media (max-width: 1303px) {
+    .header__wrapper h1.ant-typography {
+        font-weight: var(--title-font-weight);
+        font-size: 24px;
+        letter-spacing: 0.1px;
+    }
+
+    .header__wrapper span.anticon svg {
+        display: none;
+    }
+
+    .header__wrapper button.ant-btn > .anticon + span {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 900px) {
+    .header-profile span:first-of-type {
+        font-weight: 400;
+        font-size: var(--smallFontSize);
+    }
+
+    .btn-settings__profile {
+        margin-top: -8px;
+    }
+
+    .header-profile {
+        display: block;
+    }
+}
+
+@media (max-width: 576px) {
+    .header__wrapper h1.ant-typography {
+        font-size: 20px;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-bottom: 20px;
+    }
+
+    .header__wrapper span.anticon svg {
+        display: flex;
+    }
+
+    .header__wrapper button.btn-settings span:last-of-type {
+        display: none;
+    }
+
+    .header__wrapper button.ant-btn {
+        box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.04);
+        background: var(--character-light-primary-inverse);
+        border: 1px solid var(--character-light-border);
+        border-radius: var(--border-radius-large);
+        padding: 4px 8.5px;
+        width: 32px;
+        height: 32px;
+        margin-top: -8px;
+    }
+
+    .header__wrapper button.ant-btn:hover {
+        border: 1px solid var(--character-light-border);
+    }
+
+    .header__wrapper button.btn-settings__profile:hover {
+        border: none;
+    }
+
+    .header__wrapper button.btn-settings__profile {
+        border: none;
+        background-color: inherit;
+        box-shadow: none;
+        margin-top: 0;
+        margin-bottom: 16px;
+    }
+
+    .header-profile span:first-of-type {
+        padding-bottom: 0;
+    }
+
+    .header-profile .ant-page-header {
+        padding-bottom: 0;
+    }
+
+    .header span.ant-page-header-heading-title {
+        font-size: var(--smallFontSize);
+        font-weight: var(--default-font-weight);
+        line-height: 18.2px;
+    }
+
+    .header .ant-page-header-back-button {
+        margin-bottom: 2px;
+    }
+
+    .header__wrapper button.btn-settings__training {
+        margin-bottom: 16px;
+        margin-top: -16px;
+    }
+}

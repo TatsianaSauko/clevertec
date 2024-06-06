@@ -1,0 +1,37 @@
+.training-content {
+    list-style: none;
+    padding: 16px 12px;
+    margin-bottom: var(--no-bottom-margin);
+}
+
+.training-content li {
+    font-size: var(--smallFontSize);
+    line-height: 15.6px;
+}
+
+.training-content li:not(:last-child) {
+    margin-bottom: var(--small-bottom-margin);
+}
+
+.training-content .disabled {
+    color: var(--character-light-disable-25);
+}
+
+.training-content .marker {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: var(--border-radius-large);
+    margin-right: var(--subtle-right-margin);
+    margin-bottom: 2px;
+}
+
+.training-content .icon-edit {
+    float: right;
+    border: var(--no-border);
+    height: 16px;
+}
+
+.training-content .icon-edit:disabled {
+    background: var(--character-light-primary-inverse);
+}

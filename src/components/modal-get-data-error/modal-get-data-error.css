@@ -1,0 +1,73 @@
+.modal-error .ant-modal-close-x {
+    display: none;
+}
+
+div.ant-modal-body {
+    padding: 0;
+}
+
+div.ant-modal-mask {
+    backdrop-filter: blur(5px);
+    background: rgba(121, 156, 212, 0.1);
+}
+
+.modal-error .ant-modal-footer {
+    display: none;
+}
+
+.modal-error .title {
+    margin-bottom: var(--no-bottom-margin);
+    letter-spacing: 0.5px;
+}
+
+.modal-error .ant-typography.ant-typography-secondary {
+    letter-spacing: 0.5px;
+}
+
+.result-error {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: var(--box-shadow-subtle);
+    background: var(--character-light-primary-inverse);
+    border-radius: var(--border-radius-subtle);
+    padding: 64px 32px 56px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: var(--spacing-global-gap);
+    width: 539px;
+}
+
+.result-error .icon-result {
+    display: block;
+    width: 255px;
+    height: 294px;
+}
+
+.result-error .btn-back {
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.04);
+    background: var(--primary-light-6);
+    border: 1px solid var(--primary-light-6);
+}
+
+@media screen and (max-width: 576px) {
+    .result-error {
+        width: 328px;
+    }
+
+    .result-error .subtitle {
+        width: 220px;
+        display: flex;
+        margin: auto;
+    }
+
+    .ant-modal-content {
+        width: 328px;
+    }
+
+    .result-error .ant-modal {
+        max-width: auto;
+        margin: auto;
+    }
+}

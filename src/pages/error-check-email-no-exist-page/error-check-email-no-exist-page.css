@@ -1,0 +1,34 @@
+.error-email-no-exist {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: var(--box-shadow-subtle);
+    background: var(--character-light-primary-inverse);
+    border-radius: var(--border-radius-subtle);
+    padding: 64px 32px 56px;
+    align-items: center;
+    justify-content: center;
+    width: 539px;
+    text-align: center;
+    gap: var(--spacing-global-gap);
+}
+
+.error-email-no-exist .ant-btn.ant-btn-block {
+    width: 368px;
+}
+
+.error-email-no-exist span.ant-typography-secondary {
+    display: inline-block;
+    width: 70%;
+}
+
+.error-email-no-exist .button {
+    font-size: var(--smallFontSize);
+}
+
+@media screen and (max-width: 576px) {
+    .error-email-no-exist span.ant-typography-secondary {
+        display: inline-block;
+        width: 100%;
+    }
+}

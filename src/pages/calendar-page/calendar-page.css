@@ -1,0 +1,103 @@
+.calendar-page {
+    padding: 0 24px;
+    background: var(--primary-light-1);
+    color: var(--character-light-title-85);
+}
+
+.ant-picker-calendar-header,
+.ant-picker-calendar-full .ant-picker-panel {
+    background: var(--primary-light-1);
+}
+
+.ant-picker-calendar-header {
+    padding-top: 24px;
+    padding-bottom: 0;
+}
+
+.ant-picker-calendar-full .ant-picker-panel .ant-picker-cell-selected .ant-picker-calendar-date {
+    box-shadow: inset 0 2px 0 0 var(--character-light-dividers);
+    background: var(--character-light-primary-inverse);
+}
+
+.ant-picker-calendar-full .ant-picker-panel .ant-picker-calendar-date {
+    box-shadow: inset 0 2px 0 0 var(--character-light-dividers);
+    background: var(--character-light-primary-inverse);
+}
+
+.cell {
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+    position: absolute;
+}
+
+.name-training {
+    font-size: var(--smallFontSize);
+    font-weight: var(--title-font-weight);
+    line-height: 18.2px;
+    color: var(--character-light-secondary-45);
+}
+
+.has-items {
+    background: var(--primary-light-2);
+}
+
+@media screen and (max-width: 576px) {
+    .ant-picker-calendar-header {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        display: flex;
+        justify-content: end;
+    }
+
+    .ant-picker-calendar-header .ant-picker-calendar-year-select {
+        width: 20%;
+    }
+
+    .ant-picker-calendar-header .ant-picker-calendar-month-select {
+        width: calc(20% - 8px);
+    }
+
+    .ant-picker-calendar-header {
+        background: var(--character-light-primary-inverse);
+    }
+
+    .ant-picker-calendar-header .ant-picker-calendar-mode-switch > label:last-child {
+        width: 30%;
+    }
+
+    .ant-picker-calendar-header .ant-picker-calendar-mode-switch {
+        margin-top: var(--no-top-margin);
+        width: 102px;
+    }
+
+    .ant-picker-calendar-header .ant-picker-calendar-mode-switch > label:last-child {
+        width: 40px;
+    }
+
+    .ant-picker-calendar-header .ant-picker-calendar-month-select {
+        margin-right: 8px;
+    }
+
+    .cell {
+        display: none;
+    }
+
+    .calendar-page {
+        padding-top: 19px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .ant-picker-calendar-header .ant-picker-calendar-mode-switch > label {
+        width: 62px;
+    }
+
+    .calendar-page .ant-picker-calendar-header {
+        display: flex;
+    }
+
+    .calendar-page .ant-picker-calendar-header .ant-picker-calendar-mode-switch {
+        margin-top: 0;
+    }
+}
