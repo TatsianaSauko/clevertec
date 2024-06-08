@@ -3,7 +3,7 @@ name: Clevertec Frontend brach protection
 on:
     push:
         branches:
-            - main
+            - gh-pages
 
 jobs:
     add-branch-protection:

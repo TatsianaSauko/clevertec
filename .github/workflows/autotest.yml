@@ -3,7 +3,7 @@ name: Clevertec Frontend Autotests
 on:
     pull_request:
         branches:
-            - main
+            - gh-pages
 
 permissions:
     checks: write
