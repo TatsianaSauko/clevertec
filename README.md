@@ -10,6 +10,8 @@ Clevertec lab progect
 - convenient calendar for viewing workouts;
 - statistics page where you can see statistics for both the week and the last month.
 
+## Start
+
 - `clone repo`
 - `yarn install`
 - `yarn start`
